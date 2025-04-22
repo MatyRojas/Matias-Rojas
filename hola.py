@@ -1,10 +1,14 @@
 # Declaracion de Variables
+
 print("hola mundo")
 nombre = input(print("Cual es tu nombre"))
 edad = input(print("Cual es tu edad"))
+
 # Ejemplo de Contatenacion
+
 print("Hola", nombre, "tu edad es", edad)
 print("Hola {} tu edad es {}".format(nombre, edad))
+print(f"Hola {nombre} tu edad es {edad}")
 
 #Ejemplos de suma
 
@@ -27,4 +31,3 @@ suma = num1 + num2
 
 print("El resultado de la suma es",suma)
 
-#
